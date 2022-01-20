@@ -1,0 +1,13 @@
+/*
+CH-230-A
+a10_p1.cpp
+Krishna Gautam
+kgautam@jacobs-university.de
+*/
+for a) if we comment out using namespace std; from the file then then the compiler searches 
+for the cin, cout, endl,etc and cannot find the standard library and causes errors. 
+In order to fix this problem we can use std::cin, std::cout, std::endl in every cin, cout, endl etc.
+
+for b) if we connment out Critter:: the normal function cannot access the variable inside the class because it is private.
+The possible solution normal function can access variable of class if those variables are public. So we should change 
+it to public.
